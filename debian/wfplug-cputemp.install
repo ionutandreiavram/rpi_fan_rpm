@@ -1,0 +1,3 @@
+usr/lib/${DEB_HOST_MULTIARCH}/wf-panel-pi/libcfanrpm.so
+usr/share/wf-panel-pi/metadata/fan_rpm.xml
+usr/share/locale/*/LC_MESSAGES/wfplug_fanrpm.mo
