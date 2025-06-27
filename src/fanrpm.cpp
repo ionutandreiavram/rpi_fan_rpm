@@ -99,7 +99,6 @@ void WayfireFANRpm::init (Gtk::HBox *container)
     /* Setup callbacks */
     icon_size.set_callback (sigc::mem_fun (*this, &WayfireFANRpm::icon_size_changed_cb));
     bar_pos.set_callback (sigc::mem_fun (*this, &WayfireFANRpm::bar_pos_changed_cb));
-
     foreground_colour.set_callback (sigc::mem_fun (*this, &WayfireFANRpm::settings_changed_cb));
     background_colour.set_callback (sigc::mem_fun (*this, &WayfireFANRpm::settings_changed_cb));
     low_rpm.set_callback (sigc::mem_fun (*this, &WayfireFANRpm::settings_changed_cb));

@@ -1,25 +1,29 @@
 <?xml version="1.0"?>
 <wf-panel-pi>
-	<plugin name="panel">
-	<_short>Panel</_short>
-	<group>
-	<_short>FAN RPM</_short>
-	<option name="fanrpm_foreground" type="string">
-		<_short>FAN RPM Foreground Colour</_short>
-		<default>green</default>
-	</option>
-	<option name="fanrpm_background" type="string">
-		<_short>FAN RPM Background Colour</_short>
-		<default>light gray</default>
-	</option>
-	<option name="fanrpm_low_rpm" type="int">
-		<_short>FAN RPM Low RPM</_short>
-		<default>0</default>
-	</option>
-	<option name="fanrpm_high_rpm" type="int">
-		<_short>FAN RPM High RPM</_short>
-		<default>8000</default>
-	</option>
-	</group>
-	</plugin>
+    <plugin name="panel">
+    <_short>Panel</_short>
+    <group>
+    <_short>FAN RPM</_short>
+    <option name="fanrpm_foreground" type="string">
+        <_short>FAN RPM Foreground Colour</_short>
+        <default>green</default>
+    </option>
+    <option name="fanrpm_background" type="string">
+        <_short>FAN RPM Background Colour</_short>
+        <default>light gray</default>
+    </option>
+    <option name="fanrpm_low_rpm" type="int">
+        <_short>FAN RPM Low RPM</_short>
+        <default>1000</default>
+        <min>0</min>       
+		<max>8000</max>    
+		</option>
+    <option name="fanrpm_high_rpm" type="int">
+        <_short>FAN RPM High RPM</_short>
+        <default>4000</default>
+        <min>0</min>       
+		<max>8000</max>   
+		</option>
+    </group>
+    </plugin>
 </wf-panel-pi>
