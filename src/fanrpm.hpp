@@ -1,7 +1,7 @@
 /*============================================================================
 All rights reserved.
 
-Copyright (c) 2025-2026  Rex Carbone,  Pierre l'Ordinator
+Copyright (c) 2025-2026  RAlexandru Trifan,  Ionut Andrei Avram
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
